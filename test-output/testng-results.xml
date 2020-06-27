@@ -1,0 +1,694 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="8" ignored="0" total="19" passed="11">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Default suite" duration-ms="209102" started-at="2020-06-27T23:33:27 GMT+02:00" finished-at="2020-06-27T23:36:56 GMT+02:00">
+    <groups>
+    </groups>
+    <test name="Default test" duration-ms="209102" started-at="2020-06-27T23:33:27 GMT+02:00" finished-at="2020-06-27T23:36:56 GMT+02:00">
+      <class name="testcases.TestCases">
+        <test-method status="PASS" signature="setupBrowser()[pri:0, instance:testcases.TestCases@1786dec2]" name="setupBrowser" is-config="true" duration-ms="15841" started-at="2020-06-27T23:33:27 GMT+02:00" finished-at="2020-06-27T23:33:42 GMT+02:00">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setupBrowser -->
+        <test-method status="PASS" signature="goToRegisterPage()[pri:0, instance:testcases.TestCases@1786dec2]" name="goToRegisterPage" is-config="true" duration-ms="9576" started-at="2020-06-27T23:33:42 GMT+02:00" finished-at="2020-06-27T23:33:52 GMT+02:00">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- goToRegisterPage -->
+        <test-method status="PASS" signature="checkThatUserCanRegisterOnTheWebsiteSuccessfully()[pri:1, instance:testcases.TestCases@1786dec2]" name="checkThatUserCanRegisterOnTheWebsiteSuccessfully" duration-ms="3001" started-at="2020-06-27T23:33:52 GMT+02:00" finished-at="2020-06-27T23:33:55 GMT+02:00">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- checkThatUserCanRegisterOnTheWebsiteSuccessfully -->
+        <test-method status="PASS" signature="RecordFailure(org.testng.ITestResult)[pri:0, instance:testcases.TestCases@1786dec2]" name="RecordFailure" is-config="true" duration-ms="4" started-at="2020-06-27T23:33:55 GMT+02:00" finished-at="2020-06-27T23:33:55 GMT+02:00">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=checkThatUserCanRegisterOnTheWebsiteSuccessfully status=SUCCESS method=TestCases.checkThatUserCanRegisterOnTheWebsiteSuccessfully()[pri:1, instance:testcases.TestCases@1786dec2] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- RecordFailure -->
+        <test-method status="PASS" signature="goToRegisterPage()[pri:0, instance:testcases.TestCases@1786dec2]" name="goToRegisterPage" is-config="true" duration-ms="5979" started-at="2020-06-27T23:33:55 GMT+02:00" finished-at="2020-06-27T23:34:01 GMT+02:00">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- goToRegisterPage -->
+        <test-method status="PASS" signature="checkThatEmailAddressShouldBeUniqueForEachUser()[pri:2, instance:testcases.TestCases@1786dec2]" name="checkThatEmailAddressShouldBeUniqueForEachUser" duration-ms="2251" started-at="2020-06-27T23:34:01 GMT+02:00" finished-at="2020-06-27T23:34:03 GMT+02:00">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- checkThatEmailAddressShouldBeUniqueForEachUser -->
+        <test-method status="PASS" signature="RecordFailure(org.testng.ITestResult)[pri:0, instance:testcases.TestCases@1786dec2]" name="RecordFailure" is-config="true" duration-ms="0" started-at="2020-06-27T23:34:03 GMT+02:00" finished-at="2020-06-27T23:34:03 GMT+02:00">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=checkThatEmailAddressShouldBeUniqueForEachUser status=SUCCESS method=TestCases.checkThatEmailAddressShouldBeUniqueForEachUser()[pri:2, instance:testcases.TestCases@1786dec2] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- RecordFailure -->
+        <test-method status="PASS" signature="goToRegisterPage()[pri:0, instance:testcases.TestCases@1786dec2]" name="goToRegisterPage" is-config="true" duration-ms="4947" started-at="2020-06-27T23:34:03 GMT+02:00" finished-at="2020-06-27T23:34:08 GMT+02:00">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- goToRegisterPage -->
+        <test-method status="PASS" signature="checkThatSystemValidateTheEmailAddressFormatCorrectly()[pri:3, instance:testcases.TestCases@1786dec2]" name="checkThatSystemValidateTheEmailAddressFormatCorrectly" duration-ms="2214" started-at="2020-06-27T23:34:08 GMT+02:00" finished-at="2020-06-27T23:34:10 GMT+02:00">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- checkThatSystemValidateTheEmailAddressFormatCorrectly -->
+        <test-method status="PASS" signature="RecordFailure(org.testng.ITestResult)[pri:0, instance:testcases.TestCases@1786dec2]" name="RecordFailure" is-config="true" duration-ms="0" started-at="2020-06-27T23:34:10 GMT+02:00" finished-at="2020-06-27T23:34:10 GMT+02:00">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=checkThatSystemValidateTheEmailAddressFormatCorrectly status=SUCCESS method=TestCases.checkThatSystemValidateTheEmailAddressFormatCorrectly()[pri:3, instance:testcases.TestCases@1786dec2] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- RecordFailure -->
+        <test-method status="PASS" signature="goToRegisterPage()[pri:0, instance:testcases.TestCases@1786dec2]" name="goToRegisterPage" is-config="true" duration-ms="6681" started-at="2020-06-27T23:34:10 GMT+02:00" finished-at="2020-06-27T23:34:17 GMT+02:00">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- goToRegisterPage -->
+        <test-method status="PASS" signature="checkThatPasswordAndConfirmPasswordFieldsAreEqual()[pri:4, instance:testcases.TestCases@1786dec2]" name="checkThatPasswordAndConfirmPasswordFieldsAreEqual" duration-ms="2569" started-at="2020-06-27T23:34:17 GMT+02:00" finished-at="2020-06-27T23:34:20 GMT+02:00">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- checkThatPasswordAndConfirmPasswordFieldsAreEqual -->
+        <test-method status="PASS" signature="RecordFailure(org.testng.ITestResult)[pri:0, instance:testcases.TestCases@1786dec2]" name="RecordFailure" is-config="true" duration-ms="0" started-at="2020-06-27T23:34:20 GMT+02:00" finished-at="2020-06-27T23:34:20 GMT+02:00">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=checkThatPasswordAndConfirmPasswordFieldsAreEqual status=SUCCESS method=TestCases.checkThatPasswordAndConfirmPasswordFieldsAreEqual()[pri:4, instance:testcases.TestCases@1786dec2] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- RecordFailure -->
+        <test-method status="PASS" signature="goToRegisterPage()[pri:0, instance:testcases.TestCases@1786dec2]" name="goToRegisterPage" is-config="true" duration-ms="6066" started-at="2020-06-27T23:34:20 GMT+02:00" finished-at="2020-06-27T23:34:26 GMT+02:00">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- goToRegisterPage -->
+        <test-method status="FAIL" signature="checkThatFirstNameMustStartWithCapitalLetter()[pri:5, instance:testcases.TestCases@1786dec2]" name="checkThatFirstNameMustStartWithCapitalLetter" duration-ms="6619" started-at="2020-06-27T23:34:26 GMT+02:00" finished-at="2020-06-27T23:34:32 GMT+02:00">
+          <exception class="java.lang.AssertionError">
+            <message>
+              <![CDATA[System not validate that first name must start with capital letter or error message not appear]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.AssertionError: System not validate that first name must start with capital letter or error message not appear
+at org.testng.Assert.fail(Assert.java:97)
+at testcases.TestCases.checkThatFirstNameMustStartWithCapitalLetter(TestCases.java:157)
+at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+at java.lang.reflect.Method.invoke(Unknown Source)
+at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:134)
+at org.testng.internal.TestInvoker.invokeMethod(TestInvoker.java:597)
+at org.testng.internal.TestInvoker.invokeTestMethod(TestInvoker.java:173)
+at org.testng.internal.MethodRunner.runInSequence(MethodRunner.java:46)
+at org.testng.internal.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:816)
+at org.testng.internal.TestInvoker.invokeTestMethods(TestInvoker.java:146)
+at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:146)
+at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:128)
+at java.util.ArrayList.forEach(Unknown Source)
+at org.testng.TestRunner.privateRun(TestRunner.java:766)
+at org.testng.TestRunner.run(TestRunner.java:587)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:384)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:378)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:337)
+at org.testng.SuiteRunner.run(SuiteRunner.java:286)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:53)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:96)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1187)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1109)
+at org.testng.TestNG.runSuites(TestNG.java:1039)
+at org.testng.TestNG.run(TestNG.java:1007)
+at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
+at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.AssertionError -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- checkThatFirstNameMustStartWithCapitalLetter -->
+        <test-method status="PASS" signature="RecordFailure(org.testng.ITestResult)[pri:0, instance:testcases.TestCases@1786dec2]" name="RecordFailure" is-config="true" duration-ms="449" started-at="2020-06-27T23:34:32 GMT+02:00" finished-at="2020-06-27T23:34:33 GMT+02:00">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=checkThatFirstNameMustStartWithCapitalLetter status=FAILURE method=TestCases.checkThatFirstNameMustStartWithCapitalLetter()[pri:5, instance:testcases.TestCases@1786dec2] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- RecordFailure -->
+        <test-method status="PASS" signature="goToRegisterPage()[pri:0, instance:testcases.TestCases@1786dec2]" name="goToRegisterPage" is-config="true" duration-ms="6338" started-at="2020-06-27T23:34:33 GMT+02:00" finished-at="2020-06-27T23:34:39 GMT+02:00">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- goToRegisterPage -->
+        <test-method status="FAIL" signature="checkThatLastNameMustStartWithCapitalLetter()[pri:6, instance:testcases.TestCases@1786dec2]" name="checkThatLastNameMustStartWithCapitalLetter" duration-ms="6610" started-at="2020-06-27T23:34:39 GMT+02:00" finished-at="2020-06-27T23:34:46 GMT+02:00">
+          <exception class="java.lang.AssertionError">
+            <message>
+              <![CDATA[System not validate that last name must start with capital letter or error message not appear]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.AssertionError: System not validate that last name must start with capital letter or error message not appear
+at org.testng.Assert.fail(Assert.java:97)
+at testcases.TestCases.checkThatLastNameMustStartWithCapitalLetter(TestCases.java:189)
+at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+at java.lang.reflect.Method.invoke(Unknown Source)
+at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:134)
+at org.testng.internal.TestInvoker.invokeMethod(TestInvoker.java:597)
+at org.testng.internal.TestInvoker.invokeTestMethod(TestInvoker.java:173)
+at org.testng.internal.MethodRunner.runInSequence(MethodRunner.java:46)
+at org.testng.internal.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:816)
+at org.testng.internal.TestInvoker.invokeTestMethods(TestInvoker.java:146)
+at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:146)
+at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:128)
+at java.util.ArrayList.forEach(Unknown Source)
+at org.testng.TestRunner.privateRun(TestRunner.java:766)
+at org.testng.TestRunner.run(TestRunner.java:587)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:384)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:378)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:337)
+at org.testng.SuiteRunner.run(SuiteRunner.java:286)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:53)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:96)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1187)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1109)
+at org.testng.TestNG.runSuites(TestNG.java:1039)
+at org.testng.TestNG.run(TestNG.java:1007)
+at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
+at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.AssertionError -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- checkThatLastNameMustStartWithCapitalLetter -->
+        <test-method status="PASS" signature="RecordFailure(org.testng.ITestResult)[pri:0, instance:testcases.TestCases@1786dec2]" name="RecordFailure" is-config="true" duration-ms="305" started-at="2020-06-27T23:34:46 GMT+02:00" finished-at="2020-06-27T23:34:46 GMT+02:00">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=checkThatLastNameMustStartWithCapitalLetter status=FAILURE method=TestCases.checkThatLastNameMustStartWithCapitalLetter()[pri:6, instance:testcases.TestCases@1786dec2] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- RecordFailure -->
+        <test-method status="PASS" signature="goToRegisterPage()[pri:0, instance:testcases.TestCases@1786dec2]" name="goToRegisterPage" is-config="true" duration-ms="5577" started-at="2020-06-27T23:34:46 GMT+02:00" finished-at="2020-06-27T23:34:52 GMT+02:00">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- goToRegisterPage -->
+        <test-method status="FAIL" signature="checkThatFirstNameNotEqualLastName()[pri:7, instance:testcases.TestCases@1786dec2]" name="checkThatFirstNameNotEqualLastName" duration-ms="6734" started-at="2020-06-27T23:34:52 GMT+02:00" finished-at="2020-06-27T23:34:58 GMT+02:00">
+          <exception class="java.lang.AssertionError">
+            <message>
+              <![CDATA[System not validate that last name must not equal first name or error message not appear]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.AssertionError: System not validate that last name must not equal first name or error message not appear
+at org.testng.Assert.fail(Assert.java:97)
+at testcases.TestCases.checkThatFirstNameNotEqualLastName(TestCases.java:221)
+at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+at java.lang.reflect.Method.invoke(Unknown Source)
+at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:134)
+at org.testng.internal.TestInvoker.invokeMethod(TestInvoker.java:597)
+at org.testng.internal.TestInvoker.invokeTestMethod(TestInvoker.java:173)
+at org.testng.internal.MethodRunner.runInSequence(MethodRunner.java:46)
+at org.testng.internal.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:816)
+at org.testng.internal.TestInvoker.invokeTestMethods(TestInvoker.java:146)
+at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:146)
+at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:128)
+at java.util.ArrayList.forEach(Unknown Source)
+at org.testng.TestRunner.privateRun(TestRunner.java:766)
+at org.testng.TestRunner.run(TestRunner.java:587)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:384)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:378)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:337)
+at org.testng.SuiteRunner.run(SuiteRunner.java:286)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:53)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:96)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1187)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1109)
+at org.testng.TestNG.runSuites(TestNG.java:1039)
+at org.testng.TestNG.run(TestNG.java:1007)
+at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
+at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.AssertionError -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- checkThatFirstNameNotEqualLastName -->
+        <test-method status="PASS" signature="RecordFailure(org.testng.ITestResult)[pri:0, instance:testcases.TestCases@1786dec2]" name="RecordFailure" is-config="true" duration-ms="284" started-at="2020-06-27T23:34:58 GMT+02:00" finished-at="2020-06-27T23:34:59 GMT+02:00">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=checkThatFirstNameNotEqualLastName status=FAILURE method=TestCases.checkThatFirstNameNotEqualLastName()[pri:7, instance:testcases.TestCases@1786dec2] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- RecordFailure -->
+        <test-method status="PASS" signature="goToRegisterPage()[pri:0, instance:testcases.TestCases@1786dec2]" name="goToRegisterPage" is-config="true" duration-ms="6909" started-at="2020-06-27T23:34:59 GMT+02:00" finished-at="2020-06-27T23:35:06 GMT+02:00">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- goToRegisterPage -->
+        <test-method status="FAIL" signature="checkThatSystemValidateMobileNumberCorrectly()[pri:8, instance:testcases.TestCases@1786dec2]" name="checkThatSystemValidateMobileNumberCorrectly" duration-ms="6668" started-at="2020-06-27T23:35:06 GMT+02:00" finished-at="2020-06-27T23:35:12 GMT+02:00">
+          <exception class="java.lang.AssertionError">
+            <message>
+              <![CDATA[System not validate mobile number or error message not appear]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.AssertionError: System not validate mobile number or error message not appear
+at org.testng.Assert.fail(Assert.java:97)
+at testcases.TestCases.checkThatSystemValidateMobileNumberCorrectly(TestCases.java:253)
+at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+at java.lang.reflect.Method.invoke(Unknown Source)
+at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:134)
+at org.testng.internal.TestInvoker.invokeMethod(TestInvoker.java:597)
+at org.testng.internal.TestInvoker.invokeTestMethod(TestInvoker.java:173)
+at org.testng.internal.MethodRunner.runInSequence(MethodRunner.java:46)
+at org.testng.internal.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:816)
+at org.testng.internal.TestInvoker.invokeTestMethods(TestInvoker.java:146)
+at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:146)
+at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:128)
+at java.util.ArrayList.forEach(Unknown Source)
+at org.testng.TestRunner.privateRun(TestRunner.java:766)
+at org.testng.TestRunner.run(TestRunner.java:587)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:384)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:378)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:337)
+at org.testng.SuiteRunner.run(SuiteRunner.java:286)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:53)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:96)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1187)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1109)
+at org.testng.TestNG.runSuites(TestNG.java:1039)
+at org.testng.TestNG.run(TestNG.java:1007)
+at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
+at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.AssertionError -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- checkThatSystemValidateMobileNumberCorrectly -->
+        <test-method status="PASS" signature="RecordFailure(org.testng.ITestResult)[pri:0, instance:testcases.TestCases@1786dec2]" name="RecordFailure" is-config="true" duration-ms="361" started-at="2020-06-27T23:35:12 GMT+02:00" finished-at="2020-06-27T23:35:13 GMT+02:00">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=checkThatSystemValidateMobileNumberCorrectly status=FAILURE method=TestCases.checkThatSystemValidateMobileNumberCorrectly()[pri:8, instance:testcases.TestCases@1786dec2] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- RecordFailure -->
+        <test-method status="PASS" signature="goToRegisterPage()[pri:0, instance:testcases.TestCases@1786dec2]" name="goToRegisterPage" is-config="true" duration-ms="5733" started-at="2020-06-27T23:35:13 GMT+02:00" finished-at="2020-06-27T23:35:18 GMT+02:00">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- goToRegisterPage -->
+        <test-method status="FAIL" signature="checkThatSystemValidateMobileNumberNotLessThanElevenNumbers()[pri:9, instance:testcases.TestCases@1786dec2]" name="checkThatSystemValidateMobileNumberNotLessThanElevenNumbers" duration-ms="6413" started-at="2020-06-27T23:35:18 GMT+02:00" finished-at="2020-06-27T23:35:25 GMT+02:00">
+          <exception class="java.lang.AssertionError">
+            <message>
+              <![CDATA[System not validate mobile number should not less than 11 numbers or error message not appear]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.AssertionError: System not validate mobile number should not less than 11 numbers or error message not appear
+at org.testng.Assert.fail(Assert.java:97)
+at testcases.TestCases.checkThatSystemValidateMobileNumberNotLessThanElevenNumbers(TestCases.java:285)
+at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+at java.lang.reflect.Method.invoke(Unknown Source)
+at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:134)
+at org.testng.internal.TestInvoker.invokeMethod(TestInvoker.java:597)
+at org.testng.internal.TestInvoker.invokeTestMethod(TestInvoker.java:173)
+at org.testng.internal.MethodRunner.runInSequence(MethodRunner.java:46)
+at org.testng.internal.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:816)
+at org.testng.internal.TestInvoker.invokeTestMethods(TestInvoker.java:146)
+at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:146)
+at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:128)
+at java.util.ArrayList.forEach(Unknown Source)
+at org.testng.TestRunner.privateRun(TestRunner.java:766)
+at org.testng.TestRunner.run(TestRunner.java:587)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:384)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:378)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:337)
+at org.testng.SuiteRunner.run(SuiteRunner.java:286)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:53)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:96)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1187)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1109)
+at org.testng.TestNG.runSuites(TestNG.java:1039)
+at org.testng.TestNG.run(TestNG.java:1007)
+at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
+at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.AssertionError -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- checkThatSystemValidateMobileNumberNotLessThanElevenNumbers -->
+        <test-method status="PASS" signature="RecordFailure(org.testng.ITestResult)[pri:0, instance:testcases.TestCases@1786dec2]" name="RecordFailure" is-config="true" duration-ms="302" started-at="2020-06-27T23:35:25 GMT+02:00" finished-at="2020-06-27T23:35:25 GMT+02:00">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=checkThatSystemValidateMobileNumberNotLessThanElevenNumbers status=FAILURE method=TestCases.checkThatSystemValidateMobileNumberNotLessThanElevenNumbers()[pri:9, instance:testcases.TestCases@1786dec2] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- RecordFailure -->
+        <test-method status="PASS" signature="goToRegisterPage()[pri:0, instance:testcases.TestCases@1786dec2]" name="goToRegisterPage" is-config="true" duration-ms="5703" started-at="2020-06-27T23:35:25 GMT+02:00" finished-at="2020-06-27T23:35:31 GMT+02:00">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- goToRegisterPage -->
+        <test-method status="FAIL" signature="checkThatPasswordFieldShouldHaveCapitalLetter()[pri:10, instance:testcases.TestCases@1786dec2]" name="checkThatPasswordFieldShouldHaveCapitalLetter" duration-ms="6561" started-at="2020-06-27T23:35:31 GMT+02:00" finished-at="2020-06-27T23:35:37 GMT+02:00">
+          <exception class="java.lang.AssertionError">
+            <message>
+              <![CDATA[System not validate that password field should have at least one capital letter or error message not appear]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.AssertionError: System not validate that password field should have at least one capital letter or error message not appear
+at org.testng.Assert.fail(Assert.java:97)
+at testcases.TestCases.checkThatPasswordFieldShouldHaveCapitalLetter(TestCases.java:317)
+at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+at java.lang.reflect.Method.invoke(Unknown Source)
+at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:134)
+at org.testng.internal.TestInvoker.invokeMethod(TestInvoker.java:597)
+at org.testng.internal.TestInvoker.invokeTestMethod(TestInvoker.java:173)
+at org.testng.internal.MethodRunner.runInSequence(MethodRunner.java:46)
+at org.testng.internal.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:816)
+at org.testng.internal.TestInvoker.invokeTestMethods(TestInvoker.java:146)
+at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:146)
+at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:128)
+at java.util.ArrayList.forEach(Unknown Source)
+at org.testng.TestRunner.privateRun(TestRunner.java:766)
+at org.testng.TestRunner.run(TestRunner.java:587)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:384)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:378)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:337)
+at org.testng.SuiteRunner.run(SuiteRunner.java:286)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:53)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:96)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1187)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1109)
+at org.testng.TestNG.runSuites(TestNG.java:1039)
+at org.testng.TestNG.run(TestNG.java:1007)
+at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
+at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.AssertionError -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- checkThatPasswordFieldShouldHaveCapitalLetter -->
+        <test-method status="PASS" signature="RecordFailure(org.testng.ITestResult)[pri:0, instance:testcases.TestCases@1786dec2]" name="RecordFailure" is-config="true" duration-ms="297" started-at="2020-06-27T23:35:37 GMT+02:00" finished-at="2020-06-27T23:35:38 GMT+02:00">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=checkThatPasswordFieldShouldHaveCapitalLetter status=FAILURE method=TestCases.checkThatPasswordFieldShouldHaveCapitalLetter()[pri:10, instance:testcases.TestCases@1786dec2] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- RecordFailure -->
+        <test-method status="PASS" signature="goToRegisterPage()[pri:0, instance:testcases.TestCases@1786dec2]" name="goToRegisterPage" is-config="true" duration-ms="5779" started-at="2020-06-27T23:35:38 GMT+02:00" finished-at="2020-06-27T23:35:43 GMT+02:00">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- goToRegisterPage -->
+        <test-method status="FAIL" signature="checkThatPasswordFieldShouldHaveSmalLetter()[pri:11, instance:testcases.TestCases@1786dec2]" name="checkThatPasswordFieldShouldHaveSmalLetter" duration-ms="6528" started-at="2020-06-27T23:35:43 GMT+02:00" finished-at="2020-06-27T23:35:50 GMT+02:00">
+          <exception class="java.lang.AssertionError">
+            <message>
+              <![CDATA[System not validate that password field should have at least one small letter or error message not appear]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.AssertionError: System not validate that password field should have at least one small letter or error message not appear
+at org.testng.Assert.fail(Assert.java:97)
+at testcases.TestCases.checkThatPasswordFieldShouldHaveSmalLetter(TestCases.java:348)
+at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+at java.lang.reflect.Method.invoke(Unknown Source)
+at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:134)
+at org.testng.internal.TestInvoker.invokeMethod(TestInvoker.java:597)
+at org.testng.internal.TestInvoker.invokeTestMethod(TestInvoker.java:173)
+at org.testng.internal.MethodRunner.runInSequence(MethodRunner.java:46)
+at org.testng.internal.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:816)
+at org.testng.internal.TestInvoker.invokeTestMethods(TestInvoker.java:146)
+at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:146)
+at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:128)
+at java.util.ArrayList.forEach(Unknown Source)
+at org.testng.TestRunner.privateRun(TestRunner.java:766)
+at org.testng.TestRunner.run(TestRunner.java:587)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:384)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:378)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:337)
+at org.testng.SuiteRunner.run(SuiteRunner.java:286)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:53)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:96)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1187)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1109)
+at org.testng.TestNG.runSuites(TestNG.java:1039)
+at org.testng.TestNG.run(TestNG.java:1007)
+at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
+at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.AssertionError -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- checkThatPasswordFieldShouldHaveSmalLetter -->
+        <test-method status="PASS" signature="RecordFailure(org.testng.ITestResult)[pri:0, instance:testcases.TestCases@1786dec2]" name="RecordFailure" is-config="true" duration-ms="304" started-at="2020-06-27T23:35:50 GMT+02:00" finished-at="2020-06-27T23:35:50 GMT+02:00">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=checkThatPasswordFieldShouldHaveSmalLetter status=FAILURE method=TestCases.checkThatPasswordFieldShouldHaveSmalLetter()[pri:11, instance:testcases.TestCases@1786dec2] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- RecordFailure -->
+        <test-method status="PASS" signature="goToRegisterPage()[pri:0, instance:testcases.TestCases@1786dec2]" name="goToRegisterPage" is-config="true" duration-ms="6023" started-at="2020-06-27T23:35:50 GMT+02:00" finished-at="2020-06-27T23:35:56 GMT+02:00">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- goToRegisterPage -->
+        <test-method status="FAIL" signature="checkThatPasswordFieldMustNotExceedEightCharacters()[pri:12, instance:testcases.TestCases@1786dec2]" name="checkThatPasswordFieldMustNotExceedEightCharacters" duration-ms="6568" started-at="2020-06-27T23:35:56 GMT+02:00" finished-at="2020-06-27T23:36:03 GMT+02:00">
+          <exception class="java.lang.AssertionError">
+            <message>
+              <![CDATA[System not validate that password field should not exceed 11 characters or error message not appear]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.AssertionError: System not validate that password field should not exceed 11 characters or error message not appear
+at org.testng.Assert.fail(Assert.java:97)
+at testcases.TestCases.checkThatPasswordFieldMustNotExceedEightCharacters(TestCases.java:379)
+at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+at java.lang.reflect.Method.invoke(Unknown Source)
+at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:134)
+at org.testng.internal.TestInvoker.invokeMethod(TestInvoker.java:597)
+at org.testng.internal.TestInvoker.invokeTestMethod(TestInvoker.java:173)
+at org.testng.internal.MethodRunner.runInSequence(MethodRunner.java:46)
+at org.testng.internal.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:816)
+at org.testng.internal.TestInvoker.invokeTestMethods(TestInvoker.java:146)
+at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:146)
+at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:128)
+at java.util.ArrayList.forEach(Unknown Source)
+at org.testng.TestRunner.privateRun(TestRunner.java:766)
+at org.testng.TestRunner.run(TestRunner.java:587)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:384)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:378)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:337)
+at org.testng.SuiteRunner.run(SuiteRunner.java:286)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:53)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:96)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1187)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1109)
+at org.testng.TestNG.runSuites(TestNG.java:1039)
+at org.testng.TestNG.run(TestNG.java:1007)
+at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
+at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.AssertionError -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- checkThatPasswordFieldMustNotExceedEightCharacters -->
+        <test-method status="PASS" signature="RecordFailure(org.testng.ITestResult)[pri:0, instance:testcases.TestCases@1786dec2]" name="RecordFailure" is-config="true" duration-ms="297" started-at="2020-06-27T23:36:03 GMT+02:00" finished-at="2020-06-27T23:36:03 GMT+02:00">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=checkThatPasswordFieldMustNotExceedEightCharacters status=FAILURE method=TestCases.checkThatPasswordFieldMustNotExceedEightCharacters()[pri:12, instance:testcases.TestCases@1786dec2] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- RecordFailure -->
+        <test-method status="PASS" signature="goToRegisterPage()[pri:0, instance:testcases.TestCases@1786dec2]" name="goToRegisterPage" is-config="true" duration-ms="6561" started-at="2020-06-27T23:36:03 GMT+02:00" finished-at="2020-06-27T23:36:10 GMT+02:00">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- goToRegisterPage -->
+        <test-method status="PASS" signature="checkThatPasswordFieldMustNotLessThanSixCharacters()[pri:13, instance:testcases.TestCases@1786dec2]" name="checkThatPasswordFieldMustNotLessThanSixCharacters" duration-ms="2403" started-at="2020-06-27T23:36:10 GMT+02:00" finished-at="2020-06-27T23:36:12 GMT+02:00">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- checkThatPasswordFieldMustNotLessThanSixCharacters -->
+        <test-method status="PASS" signature="RecordFailure(org.testng.ITestResult)[pri:0, instance:testcases.TestCases@1786dec2]" name="RecordFailure" is-config="true" duration-ms="0" started-at="2020-06-27T23:36:12 GMT+02:00" finished-at="2020-06-27T23:36:12 GMT+02:00">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=checkThatPasswordFieldMustNotLessThanSixCharacters status=SUCCESS method=TestCases.checkThatPasswordFieldMustNotLessThanSixCharacters()[pri:13, instance:testcases.TestCases@1786dec2] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- RecordFailure -->
+        <test-method status="PASS" signature="goToRegisterPage()[pri:0, instance:testcases.TestCases@1786dec2]" name="goToRegisterPage" is-config="true" duration-ms="5376" started-at="2020-06-27T23:36:12 GMT+02:00" finished-at="2020-06-27T23:36:18 GMT+02:00">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- goToRegisterPage -->
+        <test-method status="PASS" signature="checkThatFirstNameIsMandatoryField()[pri:14, instance:testcases.TestCases@1786dec2]" name="checkThatFirstNameIsMandatoryField" duration-ms="1488" started-at="2020-06-27T23:36:18 GMT+02:00" finished-at="2020-06-27T23:36:19 GMT+02:00">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- checkThatFirstNameIsMandatoryField -->
+        <test-method status="PASS" signature="RecordFailure(org.testng.ITestResult)[pri:0, instance:testcases.TestCases@1786dec2]" name="RecordFailure" is-config="true" duration-ms="1" started-at="2020-06-27T23:36:19 GMT+02:00" finished-at="2020-06-27T23:36:19 GMT+02:00">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=checkThatFirstNameIsMandatoryField status=SUCCESS method=TestCases.checkThatFirstNameIsMandatoryField()[pri:14, instance:testcases.TestCases@1786dec2] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- RecordFailure -->
+        <test-method status="PASS" signature="goToRegisterPage()[pri:0, instance:testcases.TestCases@1786dec2]" name="goToRegisterPage" is-config="true" duration-ms="5503" started-at="2020-06-27T23:36:19 GMT+02:00" finished-at="2020-06-27T23:36:25 GMT+02:00">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- goToRegisterPage -->
+        <test-method status="PASS" signature="checkThatLastNameIsMandatoryField()[pri:15, instance:testcases.TestCases@1786dec2]" name="checkThatLastNameIsMandatoryField" duration-ms="1612" started-at="2020-06-27T23:36:25 GMT+02:00" finished-at="2020-06-27T23:36:26 GMT+02:00">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- checkThatLastNameIsMandatoryField -->
+        <test-method status="PASS" signature="RecordFailure(org.testng.ITestResult)[pri:0, instance:testcases.TestCases@1786dec2]" name="RecordFailure" is-config="true" duration-ms="0" started-at="2020-06-27T23:36:26 GMT+02:00" finished-at="2020-06-27T23:36:26 GMT+02:00">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=checkThatLastNameIsMandatoryField status=SUCCESS method=TestCases.checkThatLastNameIsMandatoryField()[pri:15, instance:testcases.TestCases@1786dec2] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- RecordFailure -->
+        <test-method status="PASS" signature="goToRegisterPage()[pri:0, instance:testcases.TestCases@1786dec2]" name="goToRegisterPage" is-config="true" duration-ms="5709" started-at="2020-06-27T23:36:26 GMT+02:00" finished-at="2020-06-27T23:36:32 GMT+02:00">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- goToRegisterPage -->
+        <test-method status="PASS" signature="checkThatMobileNumberIsMandtoryField()[pri:16, instance:testcases.TestCases@1786dec2]" name="checkThatMobileNumberIsMandtoryField" duration-ms="1480" started-at="2020-06-27T23:36:32 GMT+02:00" finished-at="2020-06-27T23:36:33 GMT+02:00">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- checkThatMobileNumberIsMandtoryField -->
+        <test-method status="PASS" signature="RecordFailure(org.testng.ITestResult)[pri:0, instance:testcases.TestCases@1786dec2]" name="RecordFailure" is-config="true" duration-ms="2" started-at="2020-06-27T23:36:33 GMT+02:00" finished-at="2020-06-27T23:36:33 GMT+02:00">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=checkThatMobileNumberIsMandtoryField status=SUCCESS method=TestCases.checkThatMobileNumberIsMandtoryField()[pri:16, instance:testcases.TestCases@1786dec2] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- RecordFailure -->
+        <test-method status="PASS" signature="goToRegisterPage()[pri:0, instance:testcases.TestCases@1786dec2]" name="goToRegisterPage" is-config="true" duration-ms="5523" started-at="2020-06-27T23:36:33 GMT+02:00" finished-at="2020-06-27T23:36:39 GMT+02:00">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- goToRegisterPage -->
+        <test-method status="PASS" signature="checkThatEmailIsMandatoryField()[pri:17, instance:testcases.TestCases@1786dec2]" name="checkThatEmailIsMandatoryField" duration-ms="1201" started-at="2020-06-27T23:36:39 GMT+02:00" finished-at="2020-06-27T23:36:40 GMT+02:00">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- checkThatEmailIsMandatoryField -->
+        <test-method status="PASS" signature="RecordFailure(org.testng.ITestResult)[pri:0, instance:testcases.TestCases@1786dec2]" name="RecordFailure" is-config="true" duration-ms="0" started-at="2020-06-27T23:36:40 GMT+02:00" finished-at="2020-06-27T23:36:40 GMT+02:00">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=checkThatEmailIsMandatoryField status=SUCCESS method=TestCases.checkThatEmailIsMandatoryField()[pri:17, instance:testcases.TestCases@1786dec2] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- RecordFailure -->
+        <test-method status="PASS" signature="goToRegisterPage()[pri:0, instance:testcases.TestCases@1786dec2]" name="goToRegisterPage" is-config="true" duration-ms="5706" started-at="2020-06-27T23:36:40 GMT+02:00" finished-at="2020-06-27T23:36:46 GMT+02:00">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- goToRegisterPage -->
+        <test-method status="PASS" signature="checkThatPasswordIsMandatoryField()[pri:18, instance:testcases.TestCases@1786dec2]" name="checkThatPasswordIsMandatoryField" duration-ms="1472" started-at="2020-06-27T23:36:46 GMT+02:00" finished-at="2020-06-27T23:36:47 GMT+02:00">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- checkThatPasswordIsMandatoryField -->
+        <test-method status="PASS" signature="RecordFailure(org.testng.ITestResult)[pri:0, instance:testcases.TestCases@1786dec2]" name="RecordFailure" is-config="true" duration-ms="0" started-at="2020-06-27T23:36:47 GMT+02:00" finished-at="2020-06-27T23:36:47 GMT+02:00">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=checkThatPasswordIsMandatoryField status=SUCCESS method=TestCases.checkThatPasswordIsMandatoryField()[pri:18, instance:testcases.TestCases@1786dec2] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- RecordFailure -->
+        <test-method status="PASS" signature="goToRegisterPage()[pri:0, instance:testcases.TestCases@1786dec2]" name="goToRegisterPage" is-config="true" duration-ms="5330" started-at="2020-06-27T23:36:47 GMT+02:00" finished-at="2020-06-27T23:36:53 GMT+02:00">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- goToRegisterPage -->
+        <test-method status="PASS" signature="checkThatConfirmPasswordIsMandatoryField()[pri:19, instance:testcases.TestCases@1786dec2]" name="checkThatConfirmPasswordIsMandatoryField" duration-ms="1301" started-at="2020-06-27T23:36:53 GMT+02:00" finished-at="2020-06-27T23:36:54 GMT+02:00">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- checkThatConfirmPasswordIsMandatoryField -->
+        <test-method status="PASS" signature="RecordFailure(org.testng.ITestResult)[pri:0, instance:testcases.TestCases@1786dec2]" name="RecordFailure" is-config="true" duration-ms="1" started-at="2020-06-27T23:36:54 GMT+02:00" finished-at="2020-06-27T23:36:54 GMT+02:00">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=checkThatConfirmPasswordIsMandatoryField status=SUCCESS method=TestCases.checkThatConfirmPasswordIsMandatoryField()[pri:19, instance:testcases.TestCases@1786dec2] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- RecordFailure -->
+        <test-method status="PASS" signature="quiteBrowser()[pri:0, instance:testcases.TestCases@1786dec2]" name="quiteBrowser" is-config="true" duration-ms="1812" started-at="2020-06-27T23:36:54 GMT+02:00" finished-at="2020-06-27T23:36:56 GMT+02:00">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- quiteBrowser -->
+      </class> <!-- testcases.TestCases -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>

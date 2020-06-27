@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite guice-stage="DEVELOPMENT" name="Failed suite [Default suite]">
+  <test thread-count="5" name="Default test(failed)">
+    <classes>
+      <class name="testcases.TestCases">
+        <methods>
+          <include name="RecordFailure"/>
+          <include name="checkThatFirstNameNotEqualLastName"/>
+          <include name="checkThatLastNameMustStartWithCapitalLetter"/>
+          <include name="checkThatSystemValidateMobileNumberCorrectly"/>
+          <include name="checkThatFirstNameMustStartWithCapitalLetter"/>
+          <include name="checkThatSystemValidateMobileNumberNotLessThanElevenNumbers"/>
+          <include name="checkThatPasswordFieldShouldHaveSmalLetter"/>
+          <include name="setupBrowser"/>
+          <include name="checkThatPasswordFieldShouldHaveCapitalLetter"/>
+          <include name="checkThatPasswordFieldMustNotExceedEightCharacters"/>
+          <include name="quiteBrowser"/>
+          <include name="goToRegisterPage"/>
+        </methods>
+      </class> <!-- testcases.TestCases -->
+    </classes>
+  </test> <!-- Default test(failed) -->
+</suite> <!-- Failed suite [Default suite] -->
